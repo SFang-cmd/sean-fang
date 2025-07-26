@@ -94,9 +94,9 @@ class SATKnowledgeRAG:
                 # Use Gemini's embedding model
                 result = self.client.models.embed_content(
                     model='text-embedding-004',
-                    content=text
+                    contents=text
                 )
-                embeddings.append(result.embedding)
+                embeddings.append(result.embeddings[0].values)
                 
                 # Add small delay to avoid rate limiting
                 if i > 0 and i % 10 == 0:
@@ -123,9 +123,9 @@ class SATKnowledgeRAG:
         try:
             result = self.client.models.embed_content(
                 model='text-embedding-004',
-                content=query
+                contents=query
             )
-            return result.embedding
+            return result.embeddings[0].values
         except Exception as e:
             print(f"Error generating query embedding: {e}")
             return [0.0] * 768

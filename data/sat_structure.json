@@ -1,0 +1,186 @@
+{
+  "math": {
+    "name": "Math",
+    "description": "Mathematical reasoning and problem-solving",
+    "domains": [
+      {
+        "id": "algebra",
+        "name": "Algebra",
+        "description": "Linear equations, functions, and systems",
+        "skills": [
+          {
+            "id": "linear-equations-one-var",
+            "name": "Linear Equations in One Variable"
+          },
+          {
+            "id": "linear-functions",
+            "name": "Linear Functions"
+          },
+          {
+            "id": "linear-equations-two-var",
+            "name": "Linear Equations in Two Variables"
+          },
+          {
+            "id": "systems-linear-equations",
+            "name": "Systems of Two Linear Equations in Two Variables"
+          },
+          {
+            "id": "linear-inequalities",
+            "name": "Linear Inequalities in One or Two Variables"
+          }
+        ]
+      },
+      {
+        "id": "advanced-math",
+        "name": "Advanced Math",
+        "description": "Nonlinear functions and complex equations",
+        "skills": [
+          {
+            "id": "nonlinear-functions",
+            "name": "Nonlinear Functions"
+          },
+          {
+            "id": "nonlinear-equations-systems",
+            "name": "Nonlinear Equations in One Variable & Systems of Equations in Two Variables"
+          },
+          {
+            "id": "equivalent-expressions",
+            "name": "Equivalent Expressions"
+          }
+        ]
+      },
+      {
+        "id": "problem-solving-data-analysis",
+        "name": "Problem-Solving & Data Analysis",
+        "description": "Statistics, probability, and data interpretation",
+        "skills": [
+          {
+            "id": "ratios-rates-proportions",
+            "name": "Ratios, Rates, Proportional Relationships, & Units"
+          },
+          {
+            "id": "percentages",
+            "name": "Percentages"
+          },
+          {
+            "id": "one-variable-data",
+            "name": "One-Variable Data: Distributions & Measures of Center & Spread"
+          },
+          {
+            "id": "two-variable-data",
+            "name": "Two-Variable Data: Models & Scatterplots"
+          },
+          {
+            "id": "probability-conditional",
+            "name": "Probability & Conditional Probability"
+          },
+          {
+            "id": "inference-statistics",
+            "name": "Inference from Sample Statistics & Margin of Error"
+          },
+          {
+            "id": "statistical-claims",
+            "name": "Evaluating Statistical Claims: Observational Studies & Experiments"
+          }
+        ]
+      },
+      {
+        "id": "geometry-trigonometry",
+        "name": "Geometry & Trigonometry",
+        "description": "Spatial reasoning and trigonometric relationships",
+        "skills": [
+          {
+            "id": "area-volume",
+            "name": "Area & Volume"
+          },
+          {
+            "id": "lines-angles-triangles",
+            "name": "Lines, Angles, & Triangles"
+          },
+          {
+            "id": "right-triangles-trigonometry",
+            "name": "Right Triangles & Trigonometry"
+          },
+          {
+            "id": "circles",
+            "name": "Circles"
+          }
+        ]
+      }
+    ]
+  },
+  "english": {
+    "name": "English",
+    "description": "Reading comprehension and language conventions",
+    "domains": [
+      {
+        "id": "information-ideas",
+        "name": "Information & Ideas",
+        "description": "Reading comprehension and analysis",
+        "skills": [
+          {
+            "id": "central-ideas-details",
+            "name": "Central Ideas & Details"
+          },
+          {
+            "id": "inferences",
+            "name": "Inferences"
+          },
+          {
+            "id": "command-evidence",
+            "name": "Command of Evidence"
+          }
+        ]
+      },
+      {
+        "id": "craft-structure",
+        "name": "Craft & Structure",
+        "description": "Text analysis and rhetorical skills",
+        "skills": [
+          {
+            "id": "words-in-context",
+            "name": "Words in Context"
+          },
+          {
+            "id": "text-structure-purpose",
+            "name": "Text Structure & Purpose"
+          },
+          {
+            "id": "cross-text-connections",
+            "name": "Cross-Text Connections"
+          }
+        ]
+      },
+      {
+        "id": "expression-ideas",
+        "name": "Expression of Ideas",
+        "description": "Writing and rhetorical effectiveness",
+        "skills": [
+          {
+            "id": "rhetorical-synthesis",
+            "name": "Rhetorical Synthesis"
+          },
+          {
+            "id": "transitions",
+            "name": "Transitions"
+          }
+        ]
+      },
+      {
+        "id": "standard-english-conventions",
+        "name": "Standard English Conventions",
+        "description": "Grammar, usage, and mechanics",
+        "skills": [
+          {
+            "id": "boundaries",
+            "name": "Boundaries"
+          },
+          {
+            "id": "form-structure-sense",
+            "name": "Form, Structure, and Sense"
+          }
+        ]
+      }
+    ]
+  }
+}

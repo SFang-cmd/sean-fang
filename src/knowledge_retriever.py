@@ -60,11 +60,11 @@ class KnowledgeRetriever:
         }
         
         # Index main subject files
-        overview_file = subject_path / f"{subject.capitalize()}Overview.md"
+        overview_file = subject_path / f"{subject}-overview.md"
         if overview_file.exists():
             subject_index["overview"] = self._read_markdown_file(overview_file)
         
-        study_notes_file = subject_path / f"{subject.capitalize()}StudyNotes.md"
+        study_notes_file = subject_path / f"{subject}-study-notes.md"
         if study_notes_file.exists():
             subject_index["study_notes"] = self._read_markdown_file(study_notes_file)
         
@@ -97,9 +97,9 @@ class KnowledgeRetriever:
         # Index main topic files
         for file in topic_path.iterdir():
             if file.is_file():
-                if "Overview.md" in file.name:
+                if file.name.endswith("-overview.md"):
                     topic_index["overview"] = self._read_markdown_file(file)
-                elif "StudyNotes.md" in file.name:
+                elif file.name.endswith("-study-notes.md"):
                     topic_index["study_notes"] = self._read_markdown_file(file)
                 elif file.name == "metadata.json":
                     topic_index["metadata"] = self._read_json_file(file)
@@ -129,9 +129,9 @@ class KnowledgeRetriever:
         
         for file in subtopic_path.iterdir():
             if file.is_file():
-                if "Overview.md" in file.name:
+                if file.name.endswith("-overview.md"):
                     subtopic_index["overview"] = self._read_markdown_file(file)
-                elif "StudyNotes.md" in file.name:
+                elif file.name.endswith("-study-notes.md"):
                     subtopic_index["study_notes"] = self._read_markdown_file(file)
                 elif file.name == "metadata.json":
                     subtopic_index["metadata"] = self._read_json_file(file)
