@@ -12,8 +12,8 @@ import json
 from dotenv import load_dotenv
 
 # Load the modules
-from src.knowledge_retriever import KnowledgeRetriever
-from src.rag_system import SATKnowledgeRAG
+from knowledge_retriever import KnowledgeRetriever
+from rag_system import SATKnowledgeRAG
 
 # Load environment variables
 load_dotenv()
