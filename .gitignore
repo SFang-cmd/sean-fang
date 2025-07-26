@@ -1,0 +1,63 @@
+# Personal files
+claude.md
+
+# Environment variables and secrets
+.env
+.env.*
+!example.env
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+chromadb/
+*.chromadb/
+*.log
+
+# Docker
+.docker/
+*.pid
+*.sock
+
+# Database
+*.sqlite3
+*.db
+
+# Distribution / packaging
+.Python
